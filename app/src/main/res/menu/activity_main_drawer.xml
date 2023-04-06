@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mainFragment"
+            android:icon="@drawable/ic_home"
+            android:title="@string/ekranGlowny" />
+        <item
+            android:id="@+id/statisticFragment"
+            android:icon="@drawable/ic_statistic"
+            android:title="@string/statystyki" />
+        <item
+            android:id="@+id/exercisesFragment"
+            android:icon="@drawable/ic_exercises"
+            android:title="@string/cwiczenia" />
+        <item
+            android:id="@+id/plansFragment"
+            android:icon="@drawable/ic_plans"
+            android:title="@string/plany" />
+        <item
+            android:id="@+id/timerFragment"
+            android:icon="@drawable/ic_timer"
+            android:title="@string/stoper" />
+        <item
+            android:id="@+id/calcFragment"
+            android:icon="@drawable/ic_calculator"
+            android:title="@string/kalkulatory" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/ustawienia" />
+    </group>
+</menu>

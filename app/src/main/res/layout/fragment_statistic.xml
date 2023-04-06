@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryLightColor"
+    tools:context=".ui.options.statistics.StatisticFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView1">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:hintEnabled="false">
+
+                <Spinner
+                    android:id="@+id/spinnerMonth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/primaryColor"
+            android:layout_margin="6dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:text="@string/waga"
+                android:textAlignment="center"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="21sp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/idGraphView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/textDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:text="@string/dzie_miesiaca" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardKcal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/primaryColor"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:text="@string/spalone"
+                android:textAlignment="center"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="21sp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/idGraphViewKcal"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/textDayKcal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:text="@string/dzie_miesiaca" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardWorkout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/primaryColor"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:text="@string/treningi"
+                android:textAlignment="center"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="21sp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/idGraphViewWorkout"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/textDayWorkout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:text="@string/dzie_miesiaca" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardMeasurment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/primaryColor"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:text="@string/pomiary"
+                android:textAlignment="center"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="21sp" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/idGraphViewMeasurment"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/textDayMeasurment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            tools:text="@string/dzie_miesiaca" />
+
+
+        <LinearLayout
+            android:id="@+id/layoutLegend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TableLayout
+                android:id="@+id/legend_container"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="15dp"
+                        android:background="#0000FF" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/neck" />
+                </TableRow>
+
+                <TableRow>
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="15dp"
+                        android:background="#00FF00" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/chest" />
+                </TableRow>
+
+                <TableRow>
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="15dp"
+                        android:background="#FF0000" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/biceps" />
+                </TableRow>
+
+                <TableRow>
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="15dp"
+                        android:background="#FFFF00" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/weist" />
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="15dp"
+                        android:background="#00FFFF" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/stomach" />
+                </TableRow>
+
+                <TableRow>
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="15dp"
+                        android:background="#FF00FF" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/hips" />
+                </TableRow>
+
+                <TableRow>
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="15dp"
+                        android:background="#000000" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/tigh" />
+                </TableRow>
+
+                <TableRow>
+                    <View
+                        android:layout_width="50dp"
+                        android:layout_height="15dp"
+                        android:background="#808080" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/calv" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

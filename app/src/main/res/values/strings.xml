@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name" translatable="false">Track Fitness Training</string>
+    <string name="mode" translatable="false">Day</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Track Fitness Training</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="password">Hasło</string>
+    <string name="logowanie">Logowanie</string>
+    <string name="zarejestrowany">Masz już konto? Kliknij</string>
+    <string name="zaloguj">Zaloguj się</string>
+    <string name="adres_email">Adres email</string>
+    <string name="nie_zarejestrowany">Nie masz konta? Kliknij</string>
+    <string name="rejestracja">Rejestracja</string>
+    <string name="dodaj_cwiczenie">Dodaj ćwiczenie</string>
+    <string name="nazwa_cwiczenia">Nazwa ćwiczenia</string>
+    <string name="zapisz">Zapisz</string>
+    <string name="podaj_ponizsze_obwody">Podaj poniższe obwody</string>
+    <string name="szyja_cm">Szyja (cm)</string>
+    <string name="klatka_cm">Klatka (cm)</string>
+    <string name="biceps_cm">Biceps (cm)</string>
+    <string name="talia_cm">Talia (cm)</string>
+    <string name="brzuch_cm">Brzuch (cm)</string>
+    <string name="biodro_cm">Biodro (cm)</string>
+    <string name="udo_cm">Udo (cm)</string>
+    <string name="lydka_cm">Łydka (cm)</string>
+    <string name="dodaj_plan_treningowy">Dodaj plan treningowy</string>
+    <string name="nazwa_planu">Nazwa planu</string>
+    <string name="podaj_wage">Podaj wagę</string>
+    <string name="twoja_waga_kg">Twoja waga (kg)</string>
+    <string name="dodaj_trening">Dodaj trening</string>
+    <string name="godzina_rozpoczecia">Godzina rozpoczęcia</string>
+    <string name="godzina_zakonczenia">Godzina zakończenia</string>
+    <string name="podaj_swoje_dane">Podaj swoje dane</string>
+    <string name="twoj_nick_lub_imie">Twój nick lub imię</string>
+    <string name="twoj_wiek">Twój wiek</string>
+    <string name="twoj_wzrost">Twój wzrost</string>
+    <string name="twoj_wzrost_cm">Twój wzrost (cm)</string>
+    <string name="kalkulatory">Kalkulatory</string>
+    <string name="skorzystaj_aby_obliczyc">Skorzystaj aby obliczyć :</string>
+    <string name="maksymalnie_jedno_powtorzenie">Maksymalnie jedno powtórzenie</string>
+    <string name="kilogramy">(Kilogramy)</string>
+    <string name="powtorzenia">(Powtórzenia)</string>
+    <string name="wynik">WYNIK</string>
+    <string name="zapotrzebowanie_kaloryczne">Zapotrzebowanie kaloryczne</string>
+    <string name="waga_kg">Waga (kg)</string>
+    <string name="wzrost_cm">Wzrost (cm)</string>
+    <string name="wiek">Wiek</string>
+    <string name="skala_aktywnosci">Skala aktywności</string>
+    <string name="mezczyzna">Mężczyzna</string>
+    <string name="kobieta">Kobieta</string>
+    <string name="bieganie">Bieganie</string>
+    <string name="klatka_piersiowa">Klatka piersiowa</string>
+    <string name="obrecz_barkowa">Obręcz barkowa</string>
+    <string name="posladki">Pośladki</string>
+    <string name="przedramiona">Przedramiona</string>
+    <string name="plecy">Plecy</string>
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="brzuch">Brzuch</string>
+    <string name="nogi">Nogi</string>
+    <string name="lydki">Łydki</string>
+    <string name="twoje_aktualne_dane_w_tym_miesiacu">Twoje aktualne dane w tym miesiącu</string>
+    <string name="ilosc_treningow">Ilość treningów</string>
+    <string name="dodaj_now_wage">Dodaj nową wagę</string>
+    <string name="dodaj_nowy_pomiar">Dodaj nowy pomiar</string>
+    <string name="zaktualizuj_podstawowe_informacje">Zaktualizuj podstawowe informacje</string>
+    <string name="ustaw_ciemny_motyw">Ustaw ciemny motyw</string>
+    <string name="wyloguj_sie">Wyloguj się</string>
+    <string name="id">ID :</string>
+    <string name="email">Email :</string>
+    <string name="stoper">Stoper</string>
+    <string name="start_pauza">Start / Pauza</string>
+    <string name="wyczysc">Wyczyść</string>
+    <string name="uzupelnij">uzupełnij</string>
+    <string name="witaj">Witaj</string>
+    <string name="liczbaTren">Liczba treningów</string>
+    <string name="dodawanie_trening">Dodaj trening</string>
+    <string name="uzupelnijWage">Uzupełnij swoją wagę</string>
+    <string name="wagaZakres">Zakres wagi wynosi od 20.00 do 500.00 kilogramów</string>
+    <string name="uzupelnijCzas">Uzupełnij czas treningu</string>
+    <string name="szczegolyPlanu">Szczegóły planu treningowego</string>
+    <string name="january">Styczeń</string>
+    <string name="february">Luty</string>
+    <string name="march">Marzec</string>
+    <string name="april">Kwiecień</string>
+    <string name="may">Maj</string>
+    <string name="june">Czerwiec</string>
+    <string name="july">Lipiec</string>
+    <string name="august">Sierpień</string>
+    <string name="september">Wrzesień</string>
+    <string name="october">Październik</string>
+    <string name="november">Listopad</string>
+    <string name="december">Grudzień</string>
+    <string name="dzienMies">Dzień miesiąca</string>
+    <string name="dzie_miesiaca">Dzień miesiąca</string>
+    <string name="brakDanych">Brak danych z tego miesiąca</string>
+    <string name="spalonekcal">Ilość spalonych kalorii (kcal)</string>
+    <string name="powtorzen">powtórzeń</string>
+    <string name="ciezar">Ciężar</string>
+    <string name="waga">Waga</string>
+    <string name="wzrost">Wzrost</string>
+    <string name="wymiaryCm">Wymiary ciała (cm)</string>
+    <string name="neck">Szyja</string>
+    <string name="chest">Klatka piersiowa</string>
+    <string name="weist">Talia</string>
+    <string name="stomach">Brzuch</string>
+    <string name="hips">Biodra</string>
+    <string name="tigh">Udo</string>
+    <string name="calv">Łydka</string>
+    <string name="szyja">Szyja</string>
+    <string name="dzien">Dzień</string>
+    <string name="ilosc">Ilość</string>
+    <string name="brakDanychPomiar">Brak pomiarów z tego miesiąca</string>
+    <string name="brakDanychKcal">Brak danych o spalonych kaloriach z tego miesiąca</string>
+    <string name="brakDanychTren">Brak treningów z tego miesiąca</string>
+    <string name="zarejestruj_sie">Zarejestruj się</string>
+    <string name="powtorz_haslo">Powtórz hasło</string>
+    <string name="treningi">Treningi</string>
+    <string name="spalone">Spalone kalorie</string>
+    <string name="pomiary">Pomiary ciała</string>
+    <string name="profil">Profil</string>
+    <string name="uzupelniPola">Uzupełnij wszystkie pola</string>
+    <string name="data_treningu">Data treningu</string>
+    <string name="data_ważenia">Data ważenia</string>
+    <string name="data_pomiaru">Data pomiaru</string>
+    <string name="ekranGlowny">Ekran główny</string>
+    <string name="cwiczenia">Ćwiczenia</string>
+    <string name="plany">Plany</string>
+    <string name="ustawienia">Ustawienia</string>
+    <string name="statystyki">Statystyki</string>
+</resources>

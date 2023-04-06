@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="pl.edu.zut.trackfitnesstraining.ui.options.main.MainFragment"
+        android:label="@string/ekranGlowny"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_addWorkoutFragment"
+            app:destination="@id/addWorkoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calcFragment"
+        android:name="pl.edu.zut.trackfitnesstraining.ui.options.calculators.CalcFragment"
+        android:label="@string/kalkulatory"
+        tools:layout="@layout/fragment_calc" />
+    <fragment
+        android:id="@+id/exercisesFragment"
+        android:name="pl.edu.zut.trackfitnesstraining.ui.options.exercises.ExercisesFragment"
+        android:label="@string/cwiczenia"
+        tools:layout="@layout/fragment_exercises" />
+    <fragment
+        android:id="@+id/plansFragment"
+        android:name="pl.edu.zut.trackfitnesstraining.ui.options.plans.PlansFragment"
+        android:label="@string/plany"
+        tools:layout="@layout/fragment_plans" >
+        <action
+            android:id="@+id/action_plansFragment_to_planDetailFragment"
+            app:destination="@id/planDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="pl.edu.zut.trackfitnesstraining.ui.options.settings.SettingsFragment"
+        android:label="@string/ustawienia"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/statisticFragment"
+        android:name="pl.edu.zut.trackfitnesstraining.ui.options.statistics.StatisticFragment"
+        android:label="@string/statystyki"
+        tools:layout="@layout/fragment_statistic" />
+    <fragment
+        android:id="@+id/timerFragment"
+        android:name="pl.edu.zut.trackfitnesstraining.ui.options.timer.TimerFragment"
+        android:label="@string/stoper"
+        tools:layout="@layout/fragment_timer" />
+    <fragment
+        android:id="@+id/planDetailFragment"
+        android:name="pl.edu.zut.trackfitnesstraining.ui.options.plans.PlanDetailFragment"
+        android:label="@string/szczegolyPlanu"
+        tools:layout="@layout/fragment_plan_detail" >
+        <action
+            android:id="@+id/action_planDetailFragment_to_plansFragment"
+            app:destination="@id/plansFragment" />
+        <argument
+            android:name="plan_id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/addWorkoutFragment"
+        android:name="pl.edu.zut.trackfitnesstraining.ui.options.workout.AddWorkoutFragment"
+        android:label="@string/dodawanie_trening"
+        tools:layout="@layout/fragment_add_workout" >
+        <action
+            android:id="@+id/action_addWorkoutFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>
