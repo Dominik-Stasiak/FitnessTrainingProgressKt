@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280047339549",
+    "project_id": "sd44203-3137e",
+    "storage_bucket": "sd44203-3137e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280047339549:android:3b305a307aa19ce066def4",
+        "android_client_info": {
+          "package_name": "pl.edu.zut.trackfitnesstraining"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280047339549-b4f7bdogouk7a46udj241j9jqtr0a255.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF7RjoA9Ud_Tr9QBjVXIJOPmMtUqfrehc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280047339549-b4f7bdogouk7a46udj241j9jqtr0a255.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
